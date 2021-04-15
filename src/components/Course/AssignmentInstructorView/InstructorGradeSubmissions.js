@@ -22,15 +22,15 @@ export default function InstructorViewSubmissions() {
       ? course.assignments[assignmentId]
       : null;
   // Filter ungraded student submissions
-  const ungradedSubmissions = Object.keys(course.students).filter((id) => {
+  const ungradedSubmissions = course?.students ? Object.keys(course.students).filter((id) => {
     return (
       !course.students[id].assignments[assignmentId].hasBeenGraded &&
       course.students[id].assignments[assignmentId].submission
     );
-  });
+  }) : null;
   // Randomly choose (From the pool of ungraded assignments) a student
-  const ranStudentId =
-    ungradedSubmissions[Math.floor(Math.random() * ungradedSubmissions.length)];
+  const ranStudentId = ungradedSubmissions ? 
+    ungradedSubmissions[Math.floor(Math.random() * ungradedSubmissions.length)] : null;
   // Initialize the random student's submission
   const ranSubmission = ranStudentId
     ? course.students[ranStudentId].assignments[assignmentId]
