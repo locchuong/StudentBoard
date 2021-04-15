@@ -1,0 +1,15 @@
+#uploader {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.assignments-header {
+    display: flex;
+    justify-content: space-between;
+}
+.assignment-submission {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}

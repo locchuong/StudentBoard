@@ -1,0 +1,178 @@
+.discussion-wrapper {
+  max-height: 100%;
+  border-bottom: 1px solid darkgray;
+  position: relative;
+}
+
+.discussion-header {
+  background-color: #414141;
+  flex: 0 0 30px;
+  width: 100%;
+}
+.discussion-add-folder {
+  float: right;
+}
+.discussion-add-folder > img {
+  filter: invert(1);
+}
+.discussion-left {
+  flex: 0 0 300px;
+  max-width: 300px;
+  border-right: 1px solid darkgray;
+  overflow-y: auto;
+}
+.discussion-right {
+  flex: 1;
+  overflow-y: auto;
+  border-right: 1px solid darkgray;
+}
+.discussion-post {
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.discussion-post:hover {
+  background-color: rgb(236, 236, 236);
+}
+.discussion-post-text {
+  margin: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: black;
+}
+.discussion-post-date {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  margin: 0;
+  font-size: 0.75rem;
+}
+.discussion-new-post {
+  background-color: #414141;
+  border-color: #414141;
+}
+.discussion-new-post:hover {
+  background-color: #2c2c2c;
+  border-color: #2c2c2c;
+  color: white;
+}
+.discussion-new-post:active {
+  background-color: #2c2c2c !important;
+  border-color: #2c2c2c !important;
+  color: white;
+}
+.discussion-new-post:focus {
+  background-color: #2c2c2c !important;
+  border-color: #2c2c2c !important;
+  color: white;
+}
+.discussion-folder-filter {
+  background-color: #686868;
+  color: white;
+}
+.btn-discussion-folder {
+  background-color: #414141;
+  border-color: 1px solid #414141;
+  border: 1px solid #414141;
+  color: white;
+}
+.btn-discussion-folder:hover {
+  background-color: #414141 !important;
+  color: white;
+  border-color: white;
+}
+.btn-discussion-folder:focus,
+.btn-discussion-folder:active {
+  box-shadow: none;
+}
+.discussion-searchbar {
+  text-indent: 1.5rem;
+}
+.discussion-searchbar-icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.discussion-folder-card {
+  border: 1px solid #414141;
+  border-radius: 0.3rem;
+}
+.discussion-new-folder-btn:hover > img {
+  filter: invert(1);
+}
+.discussion-post-notifications {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  bottom: 0.2rem;
+  right: 0.2rem;
+}
+
+.discussion-post-instructor-commented {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: goldenrod;
+}
+.discussion-post-student-commented {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(36, 145, 36);
+}
+.discussion-post-author-instructor {
+  height: 100%;
+  width: 5px;
+  background-color: goldenrod;
+  position: absolute;
+  left: 0;
+}
+.discussion-post-author-student {
+  height: 100%;
+  width: 5px;
+  background-color: rgb(36, 145, 36);
+  position: absolute;
+  left: 0;
+}
+
+.discussion-comment-reply {
+  display: flex;
+  align-items: center;
+}
+
+.discussion-comment-reply-card {
+  display: flex;
+  flex-direction: col;
+  background-color: #f6f7f6;
+  flex-grow: 1;
+}
+
+.discussion-comment-reply-icon {
+  display: inline-block;
+  transform: scaleX(-1) scaleY(-1);
+}
+.discussion-comment-reply-content > p {
+  margin-bottom: 0;
+}
+
+/* Discussion Post NavLink */
+.discussion-post-link {
+  text-decoration: none;
+}
+.discussion-post-link:hover {
+  text-decoration: none;
+  background-color: rgb(230, 230, 230);
+}
+.discussion-post-active-link > *, .discussion-post-active-link:hover > *{
+  background-color: rgb(238, 238, 238);
+  border-right: 3px solid rgb(103, 151, 255);
+}

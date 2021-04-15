@@ -1,0 +1,10 @@
+.I-assignment-post-wrapper {
+    display: flex;
+    height: 100%;
+}
+.I-assignment-post-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #414141;
+}

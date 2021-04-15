@@ -1,0 +1,14 @@
+.I-assignment-post-wrapper {
+  max-height: 100%;
+}
+.I-assignment-post-left {
+  flex: 0 0 250px;
+  max-width: 250px;
+  border-right: 1px solid darkgray;
+
+}
+.I-assignment-post-right {
+  flex: 1;
+  overflow-y: scroll;
+  border: 1px solid darkgray;
+}

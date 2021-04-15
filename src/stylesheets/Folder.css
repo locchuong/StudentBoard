@@ -1,0 +1,7 @@
+.folder-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #414141;
+    color: white;
+}

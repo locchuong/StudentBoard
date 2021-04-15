@@ -1,0 +1,8 @@
+.syllabus-header {
+    display: flex;
+    justify-content: space-between;
+}
+.syllabus-toolbar {
+    display: flex;
+    flex-direction: column;
+}

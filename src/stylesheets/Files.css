@@ -1,0 +1,21 @@
+.files-uploader {
+    position: fixed;
+    right: 3rem;
+    bottom: 1rem;
+    z-index: 100;
+    min-width: 300px;
+}
+.file-uploader-progress > * {
+    transition: none !important;
+    -webkit-transition: none !important;
+}
+.files-uploader-header {
+    background-color: #414141;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.files-add-folder-btn:hover > img {
+    filter: invert(1);
+}

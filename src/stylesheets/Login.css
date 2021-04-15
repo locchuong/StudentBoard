@@ -1,0 +1,33 @@
+/* Line Separator */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid lightgray;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: 0.25em;
+}
+/* Alternative Login Options */
+.loginOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginOptions > Button {
+    border-radius: 50%;
+    padding: 0px;
+    border: none;
+    background-color: white;
+}
+.loginOptions > Button:hover {
+    background-color: white;
+}

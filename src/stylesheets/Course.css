@@ -1,0 +1,42 @@
+.course-wrapper {
+    width: 100%;
+}
+.course-header {
+    background-color: #414141;
+    color: white;
+}
+.course-content {
+    height: 100%;
+}
+.course-navbar {
+    background-color:#414141;
+}
+.course-link {
+    color: white;
+}
+.course-link:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.course-active-link {
+    border-bottom: 2px solid white;
+}
+@media only screen and (max-width: 992px) {
+    .course-link {
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .course-header {
+        display: none;
+    }
+    .course-link {
+        font-size: x-small;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .course-link {
+        font-size: xx-small;
+    }
+}
