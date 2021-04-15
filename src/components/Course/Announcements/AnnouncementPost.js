@@ -20,9 +20,8 @@ import draftToHtml from "draftjs-to-html";
 
 export default function Announcement() {
   const { courseId, announcementId } = useParams();
-  const { courseObjects, userObject} = useAuth();
+  const { courseObjects, userObject, findInitials} = useAuth();
   const {
-    findInitials,
     createMarkup,
     deleteAnnouncement,
     updateAnnouncement,
