@@ -1,5 +1,5 @@
 import { userRef } from "../../firebase";
-import { Accessor } from "../accessor";
+import Accessor from "../accessor";
 
 export class User {
   static getUser(id, callback) {

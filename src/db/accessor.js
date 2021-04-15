@@ -1,4 +1,4 @@
-class Accessor {
+export default class Accessor {
     static getObject(ref, id, callback) {
         ref.child(id).once("value", (snapshot) => {
             callback(snapshot.val());
@@ -36,4 +36,3 @@ class Accessor {
         return result;
     }
 }
-module.exports = { Accessor};

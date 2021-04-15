@@ -1,5 +1,5 @@
 import { courseRef } from "../../firebase";
-import { Accessor } from "../accessor";
+import Accessor from "../accessor";
 
 export class Course {
   // Handle Course Object

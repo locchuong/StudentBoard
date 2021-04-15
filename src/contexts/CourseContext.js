@@ -3,7 +3,7 @@ import { useAuth } from "./AuthContext";
 import { storageRef } from "../firebase";
 import { Course } from "../db/modals/Course";
 import { User } from "../db/modals/User";
-import { Accessor } from "../db/accessor";
+import Accessor from "../db/accessor";
 import DOMPurify from "dompurify";
 
 const CourseContext = React.createContext();
