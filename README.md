@@ -16,6 +16,6 @@ StudentBoard provides rich features akin to that of Canvas (Course management, A
 - Dompurify
 - Draft-convert
 - React-dom
-- Boostrap
+- Bootstrap
 - Firebase
 - Draft-js
