@@ -28,20 +28,6 @@ export default function Landing() {
                   that is powerful, reliable, and simplistic so that educators
                   may continue shaping the world's youth.
                 </p>
-                <div className="landing-intro-btn-grp">
-                  <Button variant="outline-info" className="landing-intro-btn">
-                    <Link to={`/login`} className="text-decoration-none">
-                      Try it out!
-                      <img
-                        src={rightArrowIcon}
-                        alt="rightArrowIcon"
-                        width="25"
-                        height="25"
-                        className="ml-2 landing-intro-btn-img"
-                      />
-                    </Link>
-                  </Button>
-                </div>
               </div>
             </Col>
             <Col className="landing-intro-image">

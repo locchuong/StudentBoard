@@ -24,7 +24,7 @@ export default function About() {
                 feel free to take a look at my resume.
               </p>
               <div className="landing-intro-btn-grp">
-                <Button variant="outline-info" className="landing-intro-btn">
+                <Button variant="outline-info" className="landing-intro-btn" href={"https://drive.google.com/file/d/1UNLnJgGDORwi-ebo3yWLeYX24LTaNKKT/view?usp=sharing"} target="_blank">
                   My resume
                 </Button>
               </div>
